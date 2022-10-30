@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Midhru Jayan.K"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-30 03:32:06 PM"/>
+        <attribute name="created" value="TWlkaHJ1IEpheWFuLks7TEFQVE9QLVJENDRIRkxVOzIwMjItMTAtMjg7MDk6MjA6NTYgQU07MzYwMw=="/>
+        <attribute name="edited" value="TWlkaHJ1IEpheWFuLks7TEFQVE9QLVJENDRIRkxVOzIwMjItMTAtMzA7MDI6NTQ6MjYgUE07MTI7Mzc2Ng=="/>
+        <attribute name="edited" value="Sm9zaHVhO0xBUFRPUC1EM0xBQk8yUTsyMDIyLTEwLTMwOzAzOjMyOjA2IFBNOzE7MzAzOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="rollno, phoneno" type="Integer" array="False" size=""/>
+            <declare name="name, bloodgrp, address, department" type="String" array="False" size=""/>
+            <output expression="&quot;enter roll no.&quot;" newline="True"/>
+            <input variable="rollno"/>
+            <output expression="&quot;Phone number :&quot;" newline="True"/>
+            <input variable="phoneno"/>
+            <output expression="&quot;Name:&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;BLOOD GROUP:&quot;" newline="True"/>
+            <input variable="bloodgrp"/>
+            <output expression="&quot;ADDRESS:&quot;" newline="True"/>
+            <input variable="address"/>
+            <output expression="&quot;dept&quot;" newline="True"/>
+            <input variable="department"/>
+        </body>
+    </function>
+</flowgorithm>

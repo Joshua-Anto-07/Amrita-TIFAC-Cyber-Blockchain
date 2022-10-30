@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Midhru Jayan.K"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-30 03:38:15 PM"/>
+        <attribute name="created" value="TWlkaHJ1IEpheWFuLks7TEFQVE9QLVJENDRIRkxVOzIwMjItMTAtMzA7MDI6NTE6MDkgUE07MzYwNg=="/>
+        <attribute name="edited" value="TWlkaHJ1IEpheWFuLks7TEFQVE9QLVJENDRIRkxVOzIwMjItMTAtMzA7MDI6NTE6MTIgUE07MTtNaWRocnUgSmF5YW4uSztMQVBUT1AtUkQ0NEhGTFU7MjAyMi0xMC0yODswOToyMDo1NiBBTTtzdHVkZW50cy5mcHJnOzg3OTY="/>
+        <attribute name="edited" value="TWlkaHJ1IEpheWFuLks7TEFQVE9QLVJENDRIRkxVOzIwMjItMTAtMzA7MDI6NTM6NDIgUE07MzszNzE1"/>
+        <attribute name="edited" value="Sm9zaHVhO0xBUFRPUC1EM0xBQk8yUTsyMDIyLTEwLTMwOzAzOjM4OjE1IFBNOzE7MzA0NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="semester, sub1mark, sub2mark, sub3mark" type="Integer" array="False" size=""/>
+            <declare name="subject1, subject2, subject3" type="String" array="False" size=""/>
+            <output expression="&quot;enter semester&quot;" newline="True"/>
+            <input variable="semester"/>
+            <output expression="&quot;subject 1&quot;" newline="True"/>
+            <input variable="subject1"/>
+            <output expression="&quot;subject 1 mark&quot;" newline="True"/>
+            <input variable="sub1mark"/>
+            <output expression="&quot;subject 2&quot;" newline="True"/>
+            <input variable="subject2"/>
+            <output expression="&quot;subject 2 mark&quot;" newline="True"/>
+            <input variable="sub2mark"/>
+            <output expression="&quot;subject3&quot;" newline="True"/>
+            <input variable="subject3"/>
+            <output expression="&quot;subject 3 mark&quot;" newline="True"/>
+            <input variable="sub3mark"/>
+            <output expression="&quot;total&quot; &amp;(sub1mark+sub2mark+sub3mark)" newline="True"/>
+            <output expression="&quot;average:&quot; &amp;(sub1mark+sub2mark+sub3mark)/3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
